@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Secret Passcode Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <header>
+                <h1>The Secret Passcode Generator</h1>  <!--"password generator" in the tutorial-->
+            </header>
+            <div class="card">
+                <div class="card-header">
+                    <h2>Generate Secret Now!</h2>  <!--"generate password" in the tutorial-->
+                </div>
+                <div class="card body">
+                    <textarea
+                    readonly
+                    id="password"
+                    placeholder="Your Secret is Safe with Us!"
+                    aria-lavel="Generated Passcode :)"
+                    ></textarea>
+                </div>
+                <div class="card-footer">
+                    <button id="generate" class="btn">Generate Secret Passcode</button>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
